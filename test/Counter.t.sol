@@ -6,7 +6,7 @@ import {Counter} from "../src/Counter.sol";
 
 contract CounterTest is Test {
     Counter public counter;
-
+    address target = 0xf3D770D9E5046536BaF4c0d7AC1205Eb34918E28
     function setUp() public {
         counter = new Counter();
         counter.setNumber(0);
