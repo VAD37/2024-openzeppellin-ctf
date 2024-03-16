@@ -1,0 +1,17 @@
+compound-protocol/=lib/compound-protocol/
+compound/=lib/compound-protocol/contracts
+ds-test/=lib/forge-std/lib/ds-test/src/
+forge-std/=lib/forge-std/src/
+solmate/=lib/solmate/src/
+openzeppelin-contracts/=lib/openzeppelin-contracts/
+openzeppelin/=lib/openzeppelin-contracts/contracts/
+openzeppelin-contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/
+@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
+cyan=src/Cyan/
+v2-core/=lib/v2-core/contracts/
+v2-periphery/=lib/v2-periphery/contracts/
+v3-core/=lib/v3-core/contracts/
+v3-periphery/=lib/v3-periphery/contracts/
+v2-v08/=lib/uniswapv2-solc0.8/contracts/
+@uniswap/v3-core/contracts/=lib/v3-core/contracts/
