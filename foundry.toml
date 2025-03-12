@@ -4,6 +4,10 @@ out = "out"
 libs = ["lib"]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
-# SEPOLIA_URL=https://eth-sepolia.alchemyapi.io/v2/q5Y2SBMlUiVd7ByoUkIjrruq9adhjUFz
 
-eth-rpc-url = "https://eth-sepolia.alchemyapi.io/v2/q5Y2SBMlUiVd7ByoUkIjrruq9adhjUFz"
+evm_version = 'shanghai'
+
+ignored_error_codes =["license", "code-size","unused-return", "unused-param", "unused-var"]
+# gas_limit = "18446744073709551615"
+# gas_price = 30
+# eth-rpc-url = "http://34.91.186.161:8545/hWwfXWRfHNBGFUdqENcPWFIL/main"

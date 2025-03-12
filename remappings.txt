@@ -15,3 +15,6 @@ v3-core/=lib/v3-core/contracts/
 v3-periphery/=lib/v3-periphery/contracts/
 v2-v08/=lib/uniswapv2-solc0.8/contracts/
 @uniswap/v3-core/contracts/=lib/v3-core/contracts/
+
+forge-ctf/=lib/forge-ctf/src/
+solmate/=lib/solmate/src/

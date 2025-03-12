@@ -1,0 +1,19 @@
+# TODO
+#select the mode to test, which can be property, assertion, overflow, exploration, optimization
+testMode: "assertion"
+# number of workers
+workers: 8
+#whether ot not to fuzz all contracts
+allContracts: false
+
+#psender is the sender for property transactions; by default intentionally
+#the same as contract deployer
+psender: "0x10000"
+
+#deployer is address of the contract deployer (who often is privileged owner, etc.)
+deployer: "0x30000"
+#sender is set of addresses transactions may originate from
+sender: ["0x10000"]
+
+#testLimit is the number of test sequences to run
+testLimit: 5000000
